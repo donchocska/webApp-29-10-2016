@@ -77,13 +77,24 @@ body {
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);	
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+    background: #eaeaea;
+}
+
+.navbar-default li:first-child {
+    border-left: 1px solid #f1f1f1;
+}
+
+.navbar-default li {
+    border-right: 1px solid #f1f1f1;
+}
+
+
 // Top bar CSS
 
 
 
 // Nav bar CSS
 
-active {
-	background: rgba(52, 111, 56, 0.4);
-    color: #fff;
-}
