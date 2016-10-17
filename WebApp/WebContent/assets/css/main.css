@@ -1,0 +1,89 @@
+::-moz-selection { /* Code for Firefox */
+	color: #fff;
+	background: green;
+}
+
+::selection {
+	color: #fff;
+	background: green;
+}
+
+body {
+	background-color: #f1f1f1;
+	
+}
+
+.top-navigation {
+	height: 92px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D */
+	background: rgb(180, 227, 145); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(180, 227, 145, 1) 0%,
+		rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(180, 227, 145, 1) 0%,
+		rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(180, 227, 145, 1) 0%,
+		rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391',
+		endColorstr='#b4e391', GradientType=0); /* IE6-9 */
+}
+
+#logo {
+	color: #FFF;
+	display: inline;
+}
+
+.social-text {
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.basic-panel-image {
+	background-color: #fff;
+	border: 1px solid #E7E7E7;
+	border-radius: 10px;
+	box-shadow: -4px 0px 14px -5px rgba(0, 0, 0, .1);
+	padding: 15px;
+	margin-top: 30px;
+	margin-left: 0px;;
+}
+
+.social-img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.login-panel {
+	background-color: #fff;
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+#label{
+	margin-top: 10px;
+}
+
+.modal-dialog{
+	width: 300px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);	
+}
+
+// Top bar CSS
+
+
+
+// Nav bar CSS
+
+active {
+	background: rgba(52, 111, 56, 0.4);
+    color: #fff;
+}

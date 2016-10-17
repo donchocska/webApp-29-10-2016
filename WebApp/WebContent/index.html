@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>My first html</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/main.css" rel="stylesheet">
+<link href="assets/css/font-awesome.css" rel="stylesheet">
+
+<script src="js/vendor/jquery-3.1.1.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js\main.js"></script>
+
+</head>
+<body>
+
+	<div class="top-navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<img alt="Logo" src="assets\img\logo.png">
+					<h1 id="logo">Weather App</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 social-text">
+				<h2>Социална мрежа</h2>
+				<p>Намерете своите приятели. Отбелязвайте местата, които
+					посещавате и запазвайте вашите впечатления.</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<div class="basic-panel-image hidden-sm hidden-xs">
+					<img class="social-img" alt="Изображение"
+						src="assets\img\social-img.jpg">
+				</div>
+			</div>
+			<div class="col-md-5">
+				<form class="login-panel">
+					<div class="form-user">
+						<label for="username">Потребител</label>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user"></i></span>
+							<input type="text" class="form-control" id="username"
+								placeholder="Потребител">
+						</div>
+						<p class="help-block">Полето "потребител" е празно</p>
+					</div>
+
+					<div class="form-group">
+						<label for="password">Парола</label>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+							<input type="password" class="form-control" id="password"
+								placeholder="Парола">
+						</div>
+						<p class="help-block">Полето "парола" е празно</p>
+					</div>
+
+					<button id="login" type="submit" class="btn btn-primary">Влез</button>
+					<button id="register" type="button" data-toggle="modal"
+						data-target="#myModal" class="btn btn-success pull-right">Регистрация</button>
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+						aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal"
+										aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+									<h4 class="modal-title" id="myModalLabel">Регистрация</h4>
+								</div>
+								<div class="modal-body">
+									<label id="label" for="username">Потребителско име:</label> <input
+										type="text" class="form-control" id="username"
+										placeholder="Потребителско име"> <label id="label"
+										for="email">Email</label> <input type="text"
+										class="form-control" id="username"
+										placeholder="myemail@gmail.com"> <label id="label"
+										for="password">Парола:</label> <input type="password"
+										class="form-control" id="username" placeholder="Парола">
+									<label id="label" for="password">Паролата отново:</label> <input
+										type="password" class="form-control" id="username"
+										placeholder="Паролата отново">
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default"
+										data-dismiss="modal">Затвори</button>
+									<button type="button" class="btn btn-primary">Регистрация</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
