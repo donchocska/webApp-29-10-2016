@@ -8,47 +8,48 @@
 
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/main.css" rel="stylesheet">
-<link href="assets/fonts/font-awesome.css" rel="stylesheet">
+<link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 
 </head>
 
 <body>
-
-	<!-- Fixed navbar -->
+<div class="home-page">
+	<header>
 	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse"
 					data-target=".navbar-collapse">
 <!-- 					<span class="sr-only">Toggle navigation</span> --><span 
-						class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span>
+						class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> 
 				</button>
-				<a class="navbar-brand" href="#">BootstrapBay</a>
+				<div class = "current-weather">
+				<div class = "img-container">
+				<img alt="weateher-mage" src="assets/img/clear_sky.png">
+				</div>
+				<div class = "info">
+				<div class = "city">Пловдив</div>
+				<div class = "current-condition">Слънчево</div>
+				<div class = "pull-right"><span id="current-temperature">10.07</span> ℃</div>
+				</div>
+				</div>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">Themes <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li class="dropdown-header">Admin - Dashboard</li>
-							<li><a href="#">Admin 1</a></li>
-							<li><a href="#">Admin 2</a></li>
-							<li class="divider"></li>
-							<li class="dropdown-header">Portfolio</li>
-							<li><a href="#">Portfolio 1</a></li>
-							<li><a href="#">Portfolio 2</a></li>
-						</ul></li>
-					<li><a href="#">Contact</a></li>
+<li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="nav-label">Начало</span></a></li>
+					<li><a href="#"><i class="fa fa-users" aria-hidden="true"></i><span class="nav-label">Приятели</span></a></li>
+					<li><a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i><span class="nav-label">Известия</span></a></li>
+					<li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i><span class="nav-label">Профил</span></a></li>
+					<li><a href="index.html"><i class="fa fa-sign-out" aria-hidden="true"></i><span class="nav-label">Изход</span></a></li>
+					<!-- <li><a href="index.html"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span><span class="nav-label">Изход</span></a></li> -->
 				</ul>
 			</div>
-			<!--/.nav-collapse -->
 		</div>
 	</div>
-
+</header>
+</div>
 	<script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
