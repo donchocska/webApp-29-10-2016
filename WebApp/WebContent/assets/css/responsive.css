@@ -1,0 +1,31 @@
+@media screen and (max-width: 767px) {
+	.navbar-default .navbar-nav>li>a {
+		width: 100%;
+		line-height: 45px;
+		height: auto;
+		padding-left: 15px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.current-weather {
+		background: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container>.navbar-header {
+		background: #2f8c03;
+	}
+}
+
+.navbar-toggle {
+	margin-top: 14px;
+	margin-right: 21px;
+}
