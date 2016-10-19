@@ -9,7 +9,7 @@
 }
 
 body {
-	background-color: #f1f1f1;
+	background-color: #ECECEC;
 }
 
 .top-navigation {
@@ -270,23 +270,10 @@ a {
 	font-size: 18px;
 }
 
-/* @media screen and (max-width: 767px){
-.navbar-default .navbar-nav>li>a {
-    width: 100%;
-    line-height: 45px;
-    height: auto;
-    padding-left: 15px;
-}
+/* Panels Home-page */
+
+.panel-title {
+	color: #999;
+	font-size: 14px;
 }
 
-@media screen and (max-width: 767px){
-h1 {
-    font-size: 32px;
-}
-}
-
-
-@media screen and (max-width: 767px)
-.current-weather {
-    background: none;
-} */
