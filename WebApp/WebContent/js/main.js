@@ -35,7 +35,7 @@ function userAlert() {
 			$('.user-alert-short').hide();
 			alert("Ok");
 		}
-		
+		  
 	})
 	
 }
