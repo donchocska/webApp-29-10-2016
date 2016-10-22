@@ -4,8 +4,10 @@
 <head>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="author" content="Дончо Баламджиев; спец. Софтуерни технологии; фак.№ 1501417006">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="author"
+	content="Дончо Баламджиев; спец. Софтуерни технологии; фак.№ 1501417006">
 
 
 <title>Weather App</title>
@@ -16,7 +18,7 @@
 
 <script src="js/vendor/jquery-3.1.1.min.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
-<script src="js\main.js"></script>
+<script src="js/main.js"></script>
 
 </head>
 <body>
@@ -50,16 +52,14 @@
 			</div>
 			<div class="col-md-5">
 				<form class="login-panel">
-					<div class="form-user">
-						<label for="username">Потребител</label>
-						<div class="input-group">
-							<span class="input-group-addon"><i class="fa fa-user"></i></span>
-							<input type="text" class="form-control" id="username"
-								placeholder="Потребител">
-						</div>
-						<p class="help-block">Полето "потребител" е празно</p>
+				<label for="password">Потребителско име</label>
+					<div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-user"></i></span>
+						<input type="text" class="form-control" id="username"
+							placeholder="Потребител">
 					</div>
-
+					<span class="user-alert">Полето "Потребителско име" е празно</span>
+					<span class="user-alert-short">Потребителскотo име трябва да е от поне 6 знака</span>
 					<div class="form-group">
 						<label for="password">Парола</label>
 						<div class="input-group">
@@ -67,10 +67,10 @@
 							<input type="password" class="form-control" id="password"
 								placeholder="Парола">
 						</div>
-						<p class="help-block">Полето "парола" е празно</p>
+						<p class="pass-alert">Полето "парола" е празно</p>
 					</div>
 
-					<button id="login" type="submit" class="btn btn-primary">Влез</button>
+					<button id="login" type="button" class="btn btn-primary">Влез</button>
 					<button id="register" type="button" data-toggle="modal"
 						data-target="#myModal" class="btn btn-success pull-right">Регистрация</button>
 					<!-- Modal -->
@@ -91,7 +91,7 @@
 										placeholder="Потребителско име"> <label id="label"
 										for="email">Email</label> <input type="text"
 										class="form-control" id="username"
-										placeholder="myemail@gmail.com"> <label id="label"
+										placeholder="example@mail.com"><label id="label"
 										for="password">Парола:</label> <input type="password"
 										class="form-control" id="username" placeholder="Парола">
 									<label id="label" for="password">Паролата отново:</label> <input
@@ -111,5 +111,7 @@
 		</div>
 	</div>
 </body>
-
+<!-- <script src="js/main.js"></script> -->
+<!-- <script>loginBtnEvent()</script> -->
+<script>userAlert()</script>
 </html>

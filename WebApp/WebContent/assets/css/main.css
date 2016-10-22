@@ -74,6 +74,10 @@ body {
 	margin-top: 10px;
 }
 
+label{
+	margin: 10px 0px 7px 3px;
+}
+
 .modal-dialog {
 	width: 300px;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
@@ -277,3 +281,17 @@ a {
 	font-size: 14px;
 }
 
+.user-alert{
+	display: none;
+	color: red;
+}
+
+.user-alert-short{
+	display: none;
+	color: red;
+}
+
+.pass-alert {
+	display: none;
+	color: red;	
+}
