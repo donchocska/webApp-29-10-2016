@@ -30,7 +30,7 @@ function userAlert() {
 			$('.user-alert').hide();
 			$('.user-alert-short').show();
 		}
-		else{
+		else{ 
 			$('.user-alert').hide();
 			$('.user-alert-short').hide();
 			alert("Ok");
