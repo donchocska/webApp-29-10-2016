@@ -281,17 +281,22 @@ a {
 	font-size: 14px;
 }
 
-.user-alert{
+/* Validations  */
+
+
+.empty-alert, .validation-alert{
 	display: none;
 	color: red;
 }
 
-.user-alert-short {
+.accept-alert {
 	display: none;
-	color: red;
+	color: forestgreen;
 }
 
-.pass-alert {
-	display: none;
-	color: red;	
+.border-error{
+	border: 1px solid red;
+}
+.border-accept{
+	border: 1px solid forestgreen;
 }

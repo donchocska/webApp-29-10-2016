@@ -2,116 +2,131 @@
 <html>
 
 <head>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta charset="UTF-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="author"
-	content="Дончо Баламджиев; спец. Софтуерни технологии; фак.№ 1501417006">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author"
+          content="Дончо Баламджиев; спец. Софтуерни технологии; фак.№ 1501417006">
 
 
-<title>Weather App</title>
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/css/main.css" rel="stylesheet">
-<link href="assets/css/responsive.css" rel="stylesheet">
-<link href="assets/css/font-awesome.css" rel="stylesheet">
+    <title>Weather App</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-<script src="js/vendor/jquery-3.1.1.min.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+    <script src="js/vendor/jquery-3.1.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
 </head>
 <body>
 
-	<div class="top-navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<img alt="Logo" src="assets\img\logo.png">
-					<h1 id="logo">Weather App</h1>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 social-text">
-				<h2>Социална мрежа</h2>
-				<p>Намерете своите приятели. Отбелязвайте местата, които
-					посещавате и запазвайте вашите впечатления.</p>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row login-container">
-			<div class="col-md-7">
-				<div class="basic-panel-image hidden-sm hidden-xs">
-					<img class="social-img" alt="Изображение"
-						src="assets\img\social-img.jpg">
-				</div>
-			</div>
-			<div class="col-md-5">
-				<form class="login-panel">
-				<label for="password">Потребителско име</label>
-					<div class="input-group">
-						<span class="input-group-addon"><i class="fa fa-user"></i></span>
-						<input type="text" class="form-control" id="username"
-							placeholder="Потребител">
-					</div>
-					<span class="user-alert">Полето "Потребителско име" е празно</span>
-					<span class="user-alert-short">Потребителскотo име трябва да е от поне 6 знака</span>
-					<div class="form-group">
-						<label for="password">Парола</label>
-						<div class="input-group">
-							<span class="input-group-addon"><i class="fa fa-lock"></i></span>
-							<input type="password" class="form-control" id="password"
-								placeholder="Парола">
-		 				</div>
-						<p class="pass-alert">Полето "парола" е празно</p>
-					</div>
+<div class="top-navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img alt="Logo" src="assets\img\logo.png">
 
-					<button id="login" type="button" class="btn btn-primary">Влез</button>
-					<button id="register" type="button" data-toggle="modal"
-						data-target="#myModal" class="btn btn-success pull-right">Регистрация</button>
-					<!-- Modal -->
-					<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-						aria-labelledby="myModalLabel">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								  <div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal"
-										aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-									<h4 class="modal-title" id="myModalLabel">Регистрация</h4>
-								</div>
-								<div class="modal-body">
-									<label id="label" for="username">Потребителско име:</label> <input
-										type="text" class="form-control" id="username"
-										placeholder="Потребителско име"> <label id="label"
-										for="email">Email</label> <input type="text"
-										class="form-control" id="username"
-										placeholder="example@mail.com"><label id="label"
-										for="password">Парола:</label> <input type="password"
-										class="form-control" id="username" placeholder="Парола">
-									<label id="label" for="password">Паролата отново:</label> <input
-										type="password" class="form-control" id="username"
-										placeholder="Паролата отново">
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default"
-										data-dismiss="modal">Затвори</button>
-									<button type="button" class="btn btn-primary">Регистрация</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
+                <h1 id="logo">Weather App</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 social-text">
+            <h2>Социална мрежа</h2>
+
+            <p>Намерете своите приятели. Отбелязвайте местата, които
+                посещавате и запазвайте вашите впечатления.</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row login-container">
+        <div class="col-md-7">
+            <div class="basic-panel-image hidden-sm hidden-xs">
+                <img class="social-img" alt="Изображение"
+                     src="assets\img\social-img.jpg">
+            </div>
+        </div>
+        <div class="col-md-5">
+            <form class="login-panel">
+                <label for="email">Email</label>
+                <!-------------------Email and Pass Start--------------------------------------->
+                <div class="login-boxes">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                        <input type="text" class="form-control" id="email"
+                               placeholder="Email">
+                    </div>
+                    <span class="empty-alert">Полето "Email" е празно</span>
+                    <span class="validation-alert">Въвели сте невалиден "Email" адрес</span>
+                    <span class="accept-alert">Email адреса е приет</span>
+                </div>
+                <div class="login-boxes">
+                    <div class="form-group">
+                        <label for="password">Парола</label>
+
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                            <input type="password" class="form-control" id="password"
+                                   placeholder="Парола">
+                        </div>
+                        <span class="empty-alert">Полето "Парола" е празно</span>
+                        <span class="validation-alert">Въвели сте невалидна парола</span>  <!--To check a password between 6 to 20 characters which contain at least one numeric digit, one uppercase and one lowercase letter-->
+                        <span class="accept-alert">Паролата е приета</span>
+                    </div>
+                </div>
+                <!----------------------Email and Pass End------------------------------------>
+                <button id="login" type="button" class="btn btn-primary">Влез</button>
+                <button id="register" type="button" data-toggle="modal"
+                        data-target="#myModal" class="btn btn-success pull-right">Регистрация
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                     aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">Регистрация</h4>
+                            </div>
+                            <div class="modal-body">
+                                <label id="label" for="username">Потребителско име:</label> <input
+                                    type="text" class="form-control" id="username"
+                                    placeholder="Потребителско име"> <label id="label"
+                                                                            for="email">Email</label> <input type="text"
+                                                                                                             class="form-control"
+                                                                                                             id="username"
+                                                                                                             placeholder="example@mail.com"><label
+                                    id="label"
+                                    for="password">Парола:</label> <input type="password"
+                                                                          class="form-control" id="username"
+                                                                          placeholder="Парола">
+                                <label id="label" for="password">Паролата отново:</label> <input
+                                    type="password" class="form-control" id="username"
+                                    placeholder="Паролата отново">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default"
+                                        data-dismiss="modal">Затвори
+                                </button>
+                                <button type="button" class="btn btn-primary">Регистрация</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>eventLoginButton()</script>
 </body>
 <!-- <script src="js/main.js"></script> -->
-<!-- <script>loginBtnEvent()</script> -->
-<script>userAlert()</script>
 </html>
