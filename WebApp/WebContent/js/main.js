@@ -1,7 +1,11 @@
 function eventLoginButton() {
     $('#login').on('click', isLoginCorect);
+    
 }
 
+$('.input-group-addon').ready(function() {
+    $("i.fa").popover({'trigger':'hover'});
+});
 
 function emailValidationConditions(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
