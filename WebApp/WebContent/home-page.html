@@ -1,111 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Начало</title>
+    <title>Начало</title>
 
 
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="author"
-	content="Дончо Баламджиев; спец. Софтуерни технологии; фак.№ 1501417006">
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author"
+          content="Дончо Баламджиев; спец. Софтуерни технологии; фак.№ 1501417006">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/css/main.css" rel="stylesheet">
-<link href="assets/css/responsive.css" rel="stylesheet">
-<link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 </head>
 
 <body>
-	<div class="home-page">
-		<header>
-			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse"
-							data-target=".navbar-collapse">
-							<!-- 					<span class="sr-only">Toggle navigation</span> -->
-							<span class="icon-bar"></span><span class="icon-bar"></span><span
-								class="icon-bar"></span>
-						</button>
-						<div class="current-weather">
-							<div class="img-container">
-								<img alt="weateher-mage" src="assets/img/clear_sky.png">
-							</div>
-							<div class="info">
-								<div class="city">Пловдив</div>
-								<div id="current-condition">слънчево</div>
-								<div class="pull-right">
-									<span id="current-temperature">10.07</span> ℃
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="home-page.html"><span
-									class="glyphicon glyphicon-home" aria-hidden="true"></span><span
-									class="nav-label">Начало</span></a></li>
-							<li><a href="friends.html"><i class="fa fa-users"
-									aria-hidden="true"></i><span class="nav-label">Приятели</span></a></li>
-							<li><a href="notifications.html"><i class="fa fa-bell-o"
-									aria-hidden="true"></i><span class="nav-label">Известия</span></a></li>
-							<li><a href="profile.html"><i class="fa fa-cogs"
-									aria-hidden="true"></i><span class="nav-label">Профил</span></a></li>
-							<li><a href="index.html"><i class="fa fa-sign-out"
-									aria-hidden="true"></i><span class="nav-label">Изход</span></a></li>
-							<!-- <li><a href="index.html"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span><span class="nav-label">Изход</span></a></li> -->
-						</ul>
-					</div>
-				</div>
-			</div>
-		</header>
-		<div class="container">
-		<div class="row" style="margin-top: 100px;">
-			<div class="col-sm-4">
-				<div class="panel panel-default">
-					<div class="panel-heading"><h3 class = "panel-title">Отбележи място и напиши коментар</h3></div>
-					<div class="panel-body">
-						<div class="form-group">
-							<div class="row"></div>
-							<div class="row"></div>
-						</div>
-					</div>
-					<div class="panel-footer">
-						<button type="button" id="btnAddDiv" class="btn btn-primary pull-right publish">Публикуване</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-8">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-					<h3 class = "panel-title">Твоите отбелязвания</h3>
-					</div>
-					<div class = "panel-body">
-						<div id="content-div">
+<div class="home-page">
+    <header>
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-collapse">
+                        <!-- 					<span class="sr-only">Toggle navigation</span> -->
+                        <span class="icon-bar"></span><span class="icon-bar"></span><span
+                            class="icon-bar"></span>
+                    </button>
+                    <div class="current-weather">
+                        <div class="img-container">
+                            <img alt="weateher-mage" src="assets/img/clear_sky.png">
+                        </div>
+                        <div class="info">
+                            <div class="city">Пловдив</div>
+                            <div id="current-condition">слънчево</div>
+                            <div class="pull-right">
+                                <span id="current-temperature">10.07</span> ℃
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="home-page.html"><span
+                                class="glyphicon glyphicon-home" aria-hidden="true"></span><span
+                                class="nav-label">Начало</span></a></li>
+                        <li><a href="friends.html"><i class="fa fa-users"
+                                                      aria-hidden="true"></i><span class="nav-label">Приятели</span></a>
+                        </li>
+                        <li><a href="notifications.html"><i class="fa fa-bell-o"
+                                                            aria-hidden="true"></i><span
+                                class="nav-label">Известия</span></a></li>
+                        <li><a href="profile.html"><i class="fa fa-cogs"
+                                                      aria-hidden="true"></i><span class="nav-label">Профил</span></a>
+                        </li>
+                        <li><a href="index.html"><i class="fa fa-sign-out"
+                                                    aria-hidden="true"></i><span class="nav-label">Изход</span></a></li>
+                        <!-- <li><a href="index.html"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span><span class="nav-label">Изход</span></a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row" style="margin-top: 100px;">
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h3 class="panel-title">Отбележи място и напиши коментар</h3></div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <div class="row"></div>
+                            <div class="row"></div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <button type="button" id="btnAddDiv" class="btn btn-primary pull-right publish">Публикуване
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <strong class="h3">Твоите отбелязвания</strong>
 
+                        <!--<div class="btn-group">-->
+                            <!--<a href="#" id="list" class="btn btn-default btn-sm"><span-->
+                                    <!--class="glyphicon glyphicon-th-list">-->
+            <!--</span>Лист</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span-->
+                                <!--class="glyphicon glyphicon-th"></span>Поле</a>-->
+                        <!--</div>-->
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-	
-	<!-- ok --> 
-	<script
-		src="js/jquery-3.1.1.min.js"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
-	
+                    </div>
+                    <div class="panel-body">
+                        <ul class=" list-group addDivContent" id="content-div" style="min-height: 250px">
+                            <!--Съдържанието на всеки нов Div-->
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>
