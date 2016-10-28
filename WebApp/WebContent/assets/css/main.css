@@ -317,23 +317,30 @@ i.fa {
 }
 
 .new-div {
-	height:50px;
-	margin:10px;
-	color:white;
+	height:80px;
+	margin:0px;
+	color:#111;
 	padding:15px; 
 	margin-bottom: 0;
-	background: darkred;
+	background: #fff;
+	border-bottom: 1px solid #f1f1f1;
 }
 
 .new-div-1{
-	height:50px;
-	margin:10px;
-	color:white;
-	padding:15px;
+	height:80px;
+	margin:0px;
+	color:#111;
+	padding:15px; 
 	margin-bottom: 0;
-	background: forestgreen;
+	background: #ECECEC;
+	border-bottom: 1px solid #f1f1f1;
 }
 
 #1{
 	margin-bottom: 0;
+}
+
+.btn-close {
+	
+	margin: 10px 10px 0 0;
 }
