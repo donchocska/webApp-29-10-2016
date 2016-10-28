@@ -1,7 +1,10 @@
 function eventLoginButton() {
     $('#login').on('click', isLoginCorect);
-    
 }
+
+
+    $('#btnAddDiv').on('click', addDivOne);
+
 
 $('.input-group-addon').ready(function() {
     $("i.fa").popover({'trigger':'hover'});
@@ -32,7 +35,8 @@ function isLoginCorect(event) {
     var password = validationPass($('#password'));
 
     if (email && password) {
-        alert("OK");
+       parent.window.open('home-page.html');
+        parent.window.close('index.html');
     }
 }
 
@@ -85,96 +89,58 @@ function validationPass($input) {
 }
 
 
-/********* Чернова ***************
- *
- * $input.closest('.login-boxes').find('#email').val()) || !passValidationConditions($input.closest('.login-boxes').find('#password').val()
- *
- function emailValidation(event){
-
- Close();
-
- event.preventDefault();
-
- var valid= true;
- var emailSubmit = $('#email').val();
-
- if (emailSubmit.length == 0) {
- valid = false;
- $('.email-alert').show();
- }
- else if (!emailValidationConditions(emailSubmit)) {
- valid = false;
- $('.email-validation').show();
- }
- else {
- $('.email-accept').show();
- }
- return valid;
- }
-
- function passValidation(event){
-
- Close();
-
- event.preventDefault();
-
- var valid= true;
- var passSubmit = $('#email').val();
-
- if (passSubmit.length == 0) {
- valid = false;
- $('.pass-alert').show();
- }
- else if (!passValidationConditions(passSubmit)) {
- valid = false;
- $('.pass-validation').show();
- }
- else {
- $('.pass-accept').show();
- }
- return valid;
- }
+/**************Бутон добавящ div****************/
+function addDivOne(e){
 
 
+    e.preventDefault();
+    var i = 0;
 
- function emailValidation(e) {
+    /*$('content-div').find('li').each(function(){
 
-    Close();
-    var emailSubmit = $('#email').val();
+        if(i<1){
+            $('#content-div').append('<div id="1" class = "new-div">Test</div>');
+            i++;
+
+        }
+
+        else{
+            $('#content-div').append('<div id="1" class = "new-div-1">Test</div>');
+            i = 1;
+
+        }
+
+        $('content-div').addClass('new-div' + i);
+
+    });*/
+
+ $('#content-div').append('<div id="1" class = "new-div">Test</div>');
+oddEven();
+
+       /* var $sampleDiv = $('<div >', {
+
+            'class': 'new-div-1'
+        })
+        $('#content-div').append($sampleDiv);*/
 
 
-    if (emailSubmit.length == 0 || passSubmit.length == 0) {
-        $('.email-alert').show();
-    }
-    else if (!emailValidationConditions(emailSubmit)) {
-        $('.email-validation').show();
-    }
-    else {
-        $('.email-accept').show();
-       //return valid;
-    }
+    //var id = "sample-div";
+
+/*    var $sampleDiv = $('<div >', {
+      *//* "id":"1",*//*
+        'class': 'new-div-1'
+        })
+    $('#content-div').append($sampleDiv);*/
+
 
 }
 
- function passValidation(e) {
+function oddEven(){
+    $('#content-div').find('div:even').addClass('new-div-1');
 
-   // var valid = true;
-    Close();
+        /*css( "background-color", "#ff6464" );*/
+}
 
-    var passSubmit = $('#password').val();
-
-    if (passSubmit.length == 0) {
-        $('.pass-alert').show();
-    }
-      else if (!emailValidationConditions(emailSubmit)) {
-     $('.pass-validation').show();
-     }
-    else {
-        $('.pass-accept').show();
-     //   return valid;
-    }
-
-}*/
 
 
 
