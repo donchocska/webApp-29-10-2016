@@ -27,7 +27,7 @@ function Close() {
 }
 function isLoginCorect(event) {
 
-    Close();
+    Close();  
 
     event.preventDefault();
 
