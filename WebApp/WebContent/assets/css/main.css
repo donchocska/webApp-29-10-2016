@@ -1,101 +1,102 @@
-::-moz-selection { /* Code for Firefox */
-	color: #fff;
-	background: green;
+::-moz-selection {
+    /* Code for Firefox */
+    color: #fff;
+    background: green;
 }
 
 ::selection {
-	color: #fff;
-	background: green;
+    color: #fff;
+    background: green;
 }
 
 body {
-	background-color: #ECECEC;
+    background-color: #ECECEC;
 }
 
 .top-navigation {
-	height: 92px;
-	/*Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D
-	background: rgb(180, 227, 145); Old browsers
-	background: -moz-linear-gradient(top, rgba(180, 227, 145, 1) 0%,
-		rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%); FF3.6-15
-	background: -webkit-linear-gradient(top, rgba(180, 227, 145, 1) 0%,
-		rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%);
-	Chrome10-25,Safari5.1-6
-	background: linear-gradient(to bottom, rgba(180, 227, 145, 1) 0%,
-		rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%);
-	W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391',
-		endColorstr='#b4e391', GradientType=0); IE6-9 */
-	background: linear-gradient(to bottom, rgba(151, 201, 118, 1) 0%,
-	rgba(85, 160, 0, 1) 100%);
+    height: 92px;
+    /*Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D
+    background: rgb(180, 227, 145); Old browsers
+    background: -moz-linear-gradient(top, rgba(180, 227, 145, 1) 0%,
+        rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%); FF3.6-15
+    background: -webkit-linear-gradient(top, rgba(180, 227, 145, 1) 0%,
+        rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%);
+    Chrome10-25,Safari5.1-6
+    background: linear-gradient(to bottom, rgba(180, 227, 145, 1) 0%,
+        rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%);
+    W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391',
+        endColorstr='#b4e391', GradientType=0); IE6-9 */
+    background: linear-gradient(to bottom, rgba(151, 201, 118, 1) 0%,
+    rgba(85, 160, 0, 1) 100%);
 }
 
 #logo {
-	color: #FFF;
-	display: inline;
+    color: #FFF;
+    display: inline;
 }
 
 .social-text {
-	background-color: #fff;
-	border: 1px solid #fff;
-	border-radius: 10px;
-	padding: 15px;
-	margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
 }
 
 .basic-panel-image {
-	background-color: #fff;
-	border: 1px solid #E7E7E7;
-	border-radius: 10px;
-	box-shadow: -4px 0px 14px -5px rgba(0, 0, 0, .1);
-	padding: 15px;
-	margin-top: 30px;
-	margin-left: -15px;
-	width: 103%;
+    background-color: #fff;
+    border: 1px solid #E7E7E7;
+    border-radius: 10px;
+    box-shadow: -4px 0px 14px -5px rgba(0, 0, 0, .1);
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: -15px;
+    width: 103%;
 }
 
 .social-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .login-panel {
-	background-color: #fff;
-	margin-top: 30px;
-	width: 103%;
-	height: auto;
-	border: 1px solid #fff;
-	border-radius: 10px;
-	padding: 15px;
+    background-color: #fff;
+    margin-top: 30px;
+    width: 103%;
+    height: auto;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 #label {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
-label{
-	margin: 10px 0px 7px 3px;
+label {
+    margin: 10px 0px 7px 3px;
 }
 
 .modal-dialog {
-	width: 300px;
-	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
 
 a {
-	color: #fff;
-	text-decoration: none;
-	background: #eaeaea;
+    color: #fff;
+    text-decoration: none;
+    background: #eaeaea;
 }
 
 /* Nav bar CSS start*/
 .navbar-default li:first-child {
-	border-left: 1px solid rgba(60, 118, 61, 0.38);
+    border-left: 1px solid rgba(60, 118, 61, 0.38);
 }
 
 .navbar-default li {
-	border-right: 1px solid rgba(60, 118, 61, 0.38);
+    border-right: 1px solid rgba(60, 118, 61, 0.38);
 }
 
 /* .navbar-nav {
@@ -110,53 +111,53 @@ a {
     padding-bottom: 24px;
 } */
 .navbar-default {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D
-	background: rgb(180, 227, 145); Old browsers
-	background: -moz-linear-gradient(top, rgba(180, 227, 145, 1) 0%,
-		rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%); FF3.6-15
-	background: -webkit-linear-gradient(top, rgba(180, 227, 145, 1) 0%,
-		rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%);
-	Chrome10-25,Safari5.1-6
-	background: linear-gradient(to bottom, rgba(180, 227, 145, 1) 0%,
-		rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%);
-	W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391',
-		endColorstr='#b4e391', GradientType=0); IE6-9 */
-	border-color: ##E7E7E7;
-	background: linear-gradient(to bottom, rgba(151, 201, 118, 1) 0%,
-	rgba(85, 160, 0, 1) 100%);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D
+    background: rgb(180, 227, 145); Old browsers
+    background: -moz-linear-gradient(top, rgba(180, 227, 145, 1) 0%,
+        rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%); FF3.6-15
+    background: -webkit-linear-gradient(top, rgba(180, 227, 145, 1) 0%,
+        rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%);
+    Chrome10-25,Safari5.1-6
+    background: linear-gradient(to bottom, rgba(180, 227, 145, 1) 0%,
+        rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%);
+    W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391',
+        endColorstr='#b4e391', GradientType=0); IE6-9 */
+    border-color: # #E7E7E7;
+    background: linear-gradient(to bottom, rgba(151, 201, 118, 1) 0%,
+    rgba(85, 160, 0, 1) 100%);
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: #62AC49;
-	/*margin-bottom: 10px;
+    border-color: #62AC49;
+    /*margin-bottom: 10px;
     margin-top: 10px;*/
 }
 
 .navbar-default li {
-	border-right: 1px solid rgba(60, 118, 61, 0.38);
-	text-shadow: 1px 1px 1px #172906;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	letter-spacing: 1px;
+    border-right: 1px solid rgba(60, 118, 61, 0.38);
+    text-shadow: 1px 1px 1px #172906;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-	background: rgba(69, 140, 70, 0.54);
-	color: #fff;
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background: rgba(69, 140, 70, 0.54);
+    color: #fff;
 }
 
-.navbar-default .navbar-nav>li>a {
-	color: #fff;
-	padding: 0 22px;
-	text-shadow: 1px 1px 1px #172906;
-	background: rgba(52, 111, 56, 0.2);
-	height: 70px;
-	font-size: 16px;
-	line-height: 70px;
-	letter-spacing: 1px;
-	display: inline-block;
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    padding: 0 22px;
+    text-shadow: 1px 1px 1px #172906;
+    background: rgba(52, 111, 56, 0.2);
+    height: 70px;
+    font-size: 16px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    display: inline-block;
 }
 
 /*   color: #fff;
@@ -169,64 +170,64 @@ a {
    height: 70px;
    display: inline-block;
     */
-.navbar-default .navbar-nav>li>a:hover {
-	color: #f1f1f1;
-	background-color: rgba(69, 140, 70, 0.54);
+.navbar-default .navbar-nav > li > a:hover {
+    color: #f1f1f1;
+    background-color: rgba(69, 140, 70, 0.54);
 }
 
 /* Navbar mobile button */
 .navbar-default .navbar-toggle:hover {
-	background-color: #70b02f;
+    background-color: #70b02f;
 }
 
 .navbar-default .navbar-toggle:active {
-	background-color: #70b02f;
+    background-color: #70b02f;
 }
 
 .navbar-default .navbar-toggle {
-	border-color: #f1f1f1;
+    border-color: #f1f1f1;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #f1f1f1;
+    background-color: #f1f1f1;
 }
 
-.navbar-default .navbar-nav>.active>a {
-	text-shadow: 1px 1px 1px #172906;
+.navbar-default .navbar-nav > .active > a {
+    text-shadow: 1px 1px 1px #172906;
 }
 
 .glyphicon {
-	position: relative;
-	top: 1px;
-	right: 2px;
-	display: inline-block;
-	font-family: 'Glyphicons Halflings';
-	font-style: normal;
-	font-weight: 400;
-	line-height: 1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	padding-right: 6px;
+    position: relative;
+    top: 1px;
+    right: 2px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 6px;
 }
 
 .container {
-	padding-right: 30px;
-	padding-left: 30px;
-	margin-right: auto;
-	margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .fa {
-	margin-right: 6px;
+    margin-right: 6px;
 }
 
 i.fa {
-	display:inline-block;
+    display: inline-block;
 }
 
-.popover-title{
-	background: #eee;
-	border-bottom: 1px solid #ccc;
+.popover-title {
+    background: #eee;
+    border-bottom: 1px solid #ccc;
 }
 
 /* .navbar-brand {
@@ -239,23 +240,23 @@ i.fa {
 
 /* Weather Header */
 .current-weather {
-	height: 70px;
-	width: 240px;
-	background: rgba(52, 111, 56, 0.6);
-	padding: 7px;
-	position: relative;
+    height: 70px;
+    width: 240px;
+    background: rgba(52, 111, 56, 0.6);
+    padding: 7px;
+    position: relative;
 }
 
 .current-weather .img-container {
-	width: 65px;
-	background: #2b6108;
-	border: 1px solid #8ec366;
-	height: 56px;
+    width: 65px;
+    background: #2b6108;
+    border: 1px solid #8ec366;
+    height: 56px;
 }
 
 .current-weather img {
-	height: 100%;
-	width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 /*img {
@@ -263,84 +264,82 @@ i.fa {
 }
 */
 .current-weather .info {
-	position: absolute;
-	color: #FFF;
-	top: 5px;
-	left: 80px;
-	width: 140px;
-	letter-spacing: 1px;
-	font-weight: bold;
+    position: absolute;
+    color: #FFF;
+    top: 5px;
+    left: 80px;
+    width: 140px;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 
 .current-weather #current-condition {
-	color: #f1f1f1;
-	font-size: 8px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+    color: #f1f1f1;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .current-weather #current-temperature {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 /* Panels Home-page */
 
-.panel-title {
-	color: #999;
-	font-size: 14px;
+.panel-title, .h3 {
+    color: #999;
+    font-size: 14px;
 }
 
-.panel-footer{
-	height: 58px;
+.panel-footer {
+    height: 58px;
 }
 
 /* Validations  */
 
-
-.empty-alert, .validation-alert{
-	display: none;
-	color: red;
+.empty-alert, .validation-alert {
+    display: none;
+    color: red;
 }
 
 .accept-alert {
-	display: none;
-	color: forestgreen;
+    display: none;
+    color: forestgreen;
 }
 
-.border-error{
-	border: 1px solid red;
-	border-radius: 4px;
+.border-error {
+    border: 1px solid red;
+    border-radius: 4px;
 }
-.border-accept{
-	border: 1px solid forestgreen;
-	border-radius: 4px;
+
+.border-accept {
+    border: 1px solid forestgreen;
+    border-radius: 4px;
 }
 
 .new-div {
-	height:80px;
-	margin:0px;
-	color:#111;
-	padding:15px; 
-	margin-bottom: 0;
-	background: #fff;
-	border-bottom: 1px solid #f1f1f1;
+    height: 80px;
+    margin: 0px;
+    color: #111;
+    padding: 15px;
+    margin-bottom: 0;
+    background: #fff;
+    border-bottom: 1px solid #f1f1f1;
 }
 
-.new-div-1{
-	height:80px;
-	margin:0px;
-	color:#111;
-	padding:15px; 
-	margin-bottom: 0;
-	background: #ECECEC;
-	border-bottom: 1px solid #f1f1f1;
+.new-div-1 {
+    height: 80px;
+    margin: 0px;
+    color: #111;
+    padding: 15px;
+    margin-bottom: 0;
+    background: #ECECEC;
+    border-bottom: 1px solid #f1f1f1;
 }
 
-#1{
-	margin-bottom: 0;
+#1 {
+    margin-bottom: 0;
 }
 
-.btn-close {
-	
-	margin: 10px 10px 0 0;
-}
+/*********************/
+
